@@ -1,0 +1,23 @@
+{
+  "name": "removie",
+  "version": "1.0.0",
+  "description": "Review Movies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewclavin/removie.git"
+  },
+  "author": "andrew clavin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewclavin/removie/issues"
+  },
+  "homepage": "https://github.com/andrewclavin/removie#readme",
+  "dependencies": {
+    "mongodb": "^3.2.3"
+  }
+}
