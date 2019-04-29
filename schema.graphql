@@ -1,0 +1,17 @@
+scalar DateTime
+
+enum MovieGrade {
+    A
+    B
+    C
+    D
+    G
+}
+
+type Review {
+    id: ID!
+    text: String!
+    movieId: String!
+    created: DateTime
+    grade: MovieGrade
+}
