@@ -15,3 +15,22 @@ type Review {
     created: DateTime
     grade: MovieGrade
 }
+
+type Movie {
+    id: ID!
+    title: String!
+    year: String
+    url: String
+    description: String
+    director: String
+    reviews: [String!]
+}
+
+type Query {
+    allReviews: [Review!]!
+    allMovies: [Movie!]!
+}
+
+schema {
+    query: Query
+}
