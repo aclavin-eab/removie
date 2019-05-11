@@ -68,7 +68,7 @@ const resolvers = {
             const { insertedIds } = await db.collection('movies').insertOne(newMovie)
             newMovie.id = insertedIds[0]
 
-            return true
+            return newMovie
         },
         addReview(parent, args, { db }){
             console.log('hitting review')
